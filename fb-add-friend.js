@@ -10,14 +10,14 @@
 
 ! function() {
     "use strict";
-    var fariq = 1;
+    var e = 1;
     document.getElementById("fbSearchResultsBox").scrollIntoView(!0);
     var l = setInterval(function() {
-            var fariq, l = document.querySelectorAll(".layerCancel");
-            for (fariq = 0; fariq < l.length; ++fariq) l[fariq].click()
+            var e, l = document.querySelectorAll(".layerCancel");
+            for (e = 0; e < l.length; ++e) l[e].click()
         }, 100),
         t = setInterval(function() {
             var n = document.querySelectorAll(".FriendRequestAdd");
-            fariq < n.length ? (n[fariq].scrollIntoView(!0), window.scrollBy(0, 96.5), n[fariq].click(), fariq++) : (clearInterval(t), clearInterval(l), window.location.reload(!1))
-        }, 1fariq3)
+            e < n.length ? (n[e].scrollIntoView(!0), window.scrollBy(0, 96.5), n[e].click(), e++) : (clearInterval(t), clearInterval(l), window.location.reload(!1))
+        }, 1e3)
 }();

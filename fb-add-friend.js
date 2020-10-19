@@ -14,7 +14,7 @@
     document.getElementById("fbSearchResultsBox").scrollIntoView(!0);
     var l = setInterval(function() {
             var fariq, l = document.querySelectorAll(".layerCancel");
-            for (fariq = 0; fariq < l.length; ++fariq) l[e].click()
+            for (fariq = 0; fariq < l.length; ++fariq) l[fariq].click()
         }, 100),
         t = setInterval(function() {
             var n = document.querySelectorAll(".FriendRequestAdd");
